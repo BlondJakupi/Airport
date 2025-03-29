@@ -1,0 +1,48 @@
+body{
+    background: url("airport.jpg");
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    width: 230vh;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.up{
+    padding: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200vh;
+}
+.down{
+    padding: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 200vh;
+}
+button{
+    background-color: #363b36; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: opacity 1s;
+}
+button:hover{
+    opacity: 0.8;
+    
+}
