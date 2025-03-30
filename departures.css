@@ -4,6 +4,9 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.arrivals{
+   margin-bottom: 50px;
+}
 .main{
     width: 100%;
     height: 50vh;
