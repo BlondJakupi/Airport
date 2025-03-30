@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(59, 48, 48);
+    background: url("covid19.webp");
+}
+div{
+    background: url("paper.webp");
+    height: 80vh;
+    width: 80vh;
+    text-align: center;
+    border-radius: 15px;
+}
+li{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 15px;
+}
+button{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(32, 185, 71);
+    color: rgb(212, 126, 14);
+    font-weight: 900;
+    font-size: large;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 15px;
+    transition: opacity 1s;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.5;
+    cursor: pointer;
+}
