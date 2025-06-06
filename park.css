@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lnav{
+    display: flex;
+    align-items: center;
+}
+.midnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vh;
+}
+.midp:hover{
+ cursor: pointer;
+ color: rgb(42, 42, 230);
+}
+.lh1{
+    color: blue;
+}
+.book{
+    padding: 14px 24px;
+    background-color: rgb(51, 51, 228);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;    
+    transition: background-color 0.5s;
+}
+.book:hover{
+    background-color: rgb(0, 0, 196);   
+}
+.stress{
+    background: url("skyplane.jpg!d");   
+  background-repeat: round;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+   display: flex;
+   width: 80vh;
+   padding: 20px;
+   background-color: white;
+   border-radius: 12px;
+   justify-content: space-evenly;
+   align-items: center;  
+}
+.check{
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-color: none;
+    margin-bottom: -45px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.check:hover{
+    background-color: rgb(0, 0, 196);    
+}
+input{
+    padding: 15px ;
+    margin: 5px;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+.why{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service{
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border: solid 1px white;
+    border-radius: 12px;
+    transition: background-color 0.5s;
+}
+.service:hover{
+    background-color: rgb(240, 240, 240);
+}
+.option{
+    display: flex;   
+    align-items: center;
+    
+}
+.price{
+    background-color: rgb(211, 209, 209);
+    padding: 10px 30px;
+    margin-top: 10vh;
+}
+.card{
+    background-color: white;   
+    margin: 10px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 20px;
+    transition:all 0.6s ease;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.checking{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(196, 201, 201);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+span{
+    color: rgb(0, 0, 185);
+}
+.booknow{
+    padding: 14px 24px;
+    width: 100%;
+    background-color: rgb(51, 51, 228);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;    
+    transition: background-color 0.5s;
+}
+.booknow:hover{
+    background-color: rgb(0, 0, 196);   
+}
+.parking{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px gray;
+}
+.allprice{
+    padding: 10px;
+    text-align: start;
+    
+}
+.allprice1{
+    padding: 10px;
+    background-color: white;
+    width: 40vh;
+    height: 50vh;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.JSdesign{
+    background-color: rgb(189, 213, 228);
+    width: 100vh;
+    height: 60vh;
+    padding: 20px;
+    position: relative;
+    left: 55vh;
+    margin-top: 25px;
+    border-radius: 12px;
+    line-height: 5px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+.comments{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.each{
+     border: solid 1px gray;
+    border-radius: 12px;
+    background-color: white;
+}
+.csection{
+     background-color: rgb(218, 218, 218);
+}

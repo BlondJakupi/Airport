@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="park.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="lnav">
+            <img src="park.png">
+            <h1 class="lh1">Sky<span>Park</span></h1>
+        </div>
+        <div class="midnav">
+            <p class="midp">Home</p>
+            <p class="midp">Parking Options</p>
+            <p class="midp">Services</p>
+            <p class="midp">FAQ</p>
+            <p class="midp">Contact</p>
+        </div>
+        <button class="book">Book Now</button>
+    </div>
+    <div class="stress">
+        <div >
+            <h1>Stress-Free Airport Parking</h1>
+            <h3>Secure, convenient, and affordable parking solutions right at the airport</h3>
+            <div class="info">
+               <div>
+                  <p>Airport</p>
+                   <input type="text">
+              </div>
+           <div>
+            <p>Start Date</p>
+            <input type="date">
+           </div>
+           <div>
+            <p>End Date</p>
+            <input type="date">
+           </div>
+           <button class="check">Check Availability</button>
+        </div>
+        </div>       
+    </div>
+    <h1>Why choose SkyPark?</h1>
+    <div class="why">
+        <div class="service">
+            <img style="height: 60px; width: 60px;" src="shield.png">
+            <h3>24/7 Security</h3>
+            <p>Our facilities are monitored around the clock with CCTV and security patrols.</p>
+        </div>
+        <div class="service">
+            <img src="bus.png">
+            <h3>Free Shuttle Service</h3>
+            <p>Complimentary shuttle transfers to and from the airport terminals every 15 minutes.</p>
+        </div>
+        <div class="service">
+            <img style="height: 60px; width: 60px;" src="lightning (2).png">
+            <h3>EV Charging</h3>
+            <p>Dedicated parking spaces with electric vehicle charging stations available.</p>
+        </div>
+    </div>
+    <div class="price">
+        <div>
+            <h1>Our Parking Options</h1>
+            <P>Choose the parking solution that fits your travel needs and budget</P>
+        </div>
+        <div class="option">
+            <div class="card">
+                <div class="photo">
+                    <img src="bus.png">
+                </div>
+                <h3>Economy Parking</h3>
+                <p>Our most affordable option with secure parking just a short shuttle ride from the terminal.</p>
+                <p><span>$8</span>/day</p>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>24/7 Security</p>
+                </div>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Free Shuttle Service</p>
+                </div>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Covered Parking Available</p>
+                </div>
+                <button class="booknow">Book now</button>
+            </div>
+            <div class="card">
+                <div class="photo">
+                    <img src="bus.png">
+                </div>
+                <h3>Premium Parking</h3>
+                <p>Closest parking to terminals with premium services including car wash and detailing options.</p>
+                <p><span>$15</span>/day</p>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Closest to Terminals</p>
+                </div>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Valet Service Available</p>
+                </div>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Priority Shuttle Service</p>
+                </div>
+                <button class="booknow">Book now</button>
+            </div>
+            <div class="card">
+                <div class="photo">
+                    <img src="bus.png">
+                </div>
+                <h3>Business Parking</h3>
+                <p>Dedicated parking for business travelers with fast track services and premium amenities.</p>
+                <p><span>$25</span>/day</p>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Exclusive Business Lounge</p>
+                </div>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Personal Concierge</p>
+                </div>
+                <div class="checking">
+                    <img src="check.png">
+                    <p>Fast Track Security</p>
+                </div>
+                <button class="booknow">Book now</button>
+            </div>
+        </div>
+    </div>
+    <div class="JSdesign"><!--Dizajn per perdorimin e JavaScript-->
+        <h2>Parking Cost Calculator</h2>   
+        <div class="parking">
+             <div class="allprice">
+                  <h3>Parking type</h3>
+                  <input type="text" placeholder="Choose">
+                  <h3>Start date</h3>
+                  <input type="date">
+                  <h3>End Date</h3>
+                  <input type="date">
+                  <h3>Additional services</h3>
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <p>EV Charging ($5/day)</p>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <p>Car Wash ($15)</p>
+                  </div>
+                  <div class="checkbox">
+                    <input type="checkbox">
+                    <p>Valet Service ($10)</p>
+                  </div>
+             </div>
+             <div class="allprice1">
+                  <h2>Estimated Cost</h2>
+                  <div class="tax">
+                    <p>Parking Fee:</p>
+                    <p>$50.00</p>
+                  </div>
+                   <div class="tax">                  
+                    <p>Additional Services:</p>
+                    <p>$35.00</p>
+                  </div>
+                   <div class="tax">
+                    <p>Tax (8%):</p>
+                    <p>$6.80</p>
+                  </div>
+                  <div class="tax">
+                    <h2>Total</h2>
+                    <span>$91.80</span>
+                  </div>
+                  <button class="booknow">Calculate Total</button>
+             </div>
+        </div>    
+    </div>
+    <div class="csection">
+        <h1>What Our Customers Say</h1>
+        <div class="comments">
+            <div class="each">
+                <div class="profile">
+                    <img src="body.png">
+                    <p>Blond Jakupi</p>
+                </div>
+                <p>I've used SkyPark multiple times and it's always been a seamless experience. </p>
+            </div>
+            <div class="each">
+                <div class="profile">
+                    <img src="body.png">
+                    <p>Andi Cakolli</p>
+                </div>
+                <p>The premium parking option is worth every penny when traveling for business. </p>
+            </div>
+            <div class="each">
+                <div class="profile">
+                    <img src="body.png">
+                    <p>Jcoders</p>
+                </div>
+                <p>This is the best website!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
