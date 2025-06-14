@@ -90,8 +90,7 @@ input{
 }
 .option{
     display: flex;   
-    align-items: center;
-    
+    align-items: center;   
 }
 .price{
     background-color: rgb(211, 209, 209);
@@ -155,8 +154,7 @@ span{
 }
 .allprice{
     padding: 10px;
-    text-align: start;
-    
+    text-align: start; 
 }
 .allprice1{
     padding: 10px;
@@ -176,14 +174,14 @@ span{
     position: relative;
     left: 55vh;
     margin-top: 25px;
+    margin-bottom: 30px;
     border-radius: 12px;
     line-height: 5px;
 }
 .profile{
     display: flex;
     align-items: center;
-    justify-content: start;
-   
+    justify-content: start;  
 }
 .comments{
     display: flex;
@@ -194,7 +192,71 @@ span{
      border: solid 1px gray;
     border-radius: 12px;
     background-color: white;
+    padding: 10px;
+    width: 350px;
+    height: 110px;
+    text-align: start;
 }
 .csection{
-     background-color: rgb(218, 218, 218);
+     background-color: rgb(249 250 251);
+     padding: 20px;
+}
+p{
+    color: gray;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;   
+    padding: 10px;
+    margin: 10px;
+    width: 20cm;
+}
+.recentlyq{
+     background-color: rgb(249 250 251);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 30px;
+}
+.footer{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 10px;
+}
+.fbuton{
+    padding: 12px 20px;
+    margin: 5px;
+    color: rgb(18, 18, 143);
+    border: solid white 1px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.5s;
+}
+.fbuton:hover{
+    background-color: rgb(214, 215, 216);   
+}
+.fbuton2{
+    padding: 12px 20px;
+    color: white;
+    background-color: rgb(4, 4, 199);
+    border: solid white 1px;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.5s;
+}
+.fbuton2:hover{
+    background-color: blue;
+}
+.back{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 100px;
 }
